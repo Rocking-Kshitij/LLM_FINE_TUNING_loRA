@@ -10,6 +10,13 @@ This project demonstrates how to fine-tune the [TinyLlama-1.1B-Chat-v1.0](https:
 - Datasets: Custom dataset + `alpaca_cleaned.json`
 - Objective: As an experiment we fine tuned the model to learn a word 'Azenrzostideriaza' which hypothetically means "A nerd python programmer"
 
+Normal vanilla llm:
+<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/9505f5db-c77d-4064-a5ff-daddf4acb054" />
+
+
+After loRA fineTuning:
+<img width="1564" height="448" alt="image6" src="https://github.com/user-attachments/assets/433d5546-099b-4c6d-ac44-f0180a4399da" />
+
 ## Steps
 
 1. **Prepare the Dataset**
@@ -43,12 +50,5 @@ Directories
 /inference -> for merging and inference
 
 
-
-Normal vanilla llm:
-<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/9505f5db-c77d-4064-a5ff-daddf4acb054" />
-
-
-After loRA fineTuning:
-<img width="1564" height="448" alt="image6" src="https://github.com/user-attachments/assets/433d5546-099b-4c6d-ac44-f0180a4399da" />
 
 
