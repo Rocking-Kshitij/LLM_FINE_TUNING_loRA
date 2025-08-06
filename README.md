@@ -46,4 +46,10 @@ Directories
 ```bash
 pip install transformers datasets peft accelerate bitsandbytes
 
-![image.png](attachment:a29af3e8-663b-4c35-a84e-2adbceb02b18:image.png)
+Normal vanilla llm:
+<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/390a389c-e5dd-4d0f-b705-1531973946d8" />
+
+After loRA fineTuning:
+<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/8e015baa-79f5-4079-b096-a94702e10a30" />
+
+
