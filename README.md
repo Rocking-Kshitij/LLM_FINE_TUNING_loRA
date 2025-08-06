@@ -45,3 +45,5 @@ Directories
 
 ```bash
 pip install transformers datasets peft accelerate bitsandbytes
+
+![image.png](attachment:a29af3e8-663b-4c35-a84e-2adbceb02b18:image.png)
