@@ -43,8 +43,6 @@ Directories
 /inference -> for merging and inference
 
 
-```bash
-pip install transformers datasets peft accelerate bitsandbytes
 
 Normal vanilla llm:
 ![Normal Vanilla LLM](assets/image7)
