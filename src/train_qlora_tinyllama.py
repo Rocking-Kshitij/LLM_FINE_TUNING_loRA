@@ -85,6 +85,14 @@ def main():
     #  Load model
     print(" Loading model...")
     device = "cuda" if torch.cuda.is_available() else "cpu"
+
+    bnb_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",         # or "fp4"
+    bnb_4bit_use_double_quant=True,
+    bnb_4bit_compute_dtype=torch.float16,
+    )
+    
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_NAME,
         torch_dtype=torch.float16 if device == "cuda" else torch.float32,
