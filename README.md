@@ -47,9 +47,9 @@ Directories
 pip install transformers datasets peft accelerate bitsandbytes
 
 Normal vanilla llm:
-<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/390a389c-e5dd-4d0f-b705-1531973946d8" />
+<img width="1604" height="479" alt="image7" src="assets/image7" />
 
 After loRA fineTuning:
-<img width="1604" height="479" alt="image7" src="https://github.com/user-attachments/assets/8e015baa-79f5-4079-b096-a94702e10a30" />
+<img width="1604" height="479" alt="image6" src="assets/image6" />
 
 
